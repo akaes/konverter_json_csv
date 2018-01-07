@@ -4,11 +4,11 @@ import json
 import csv
 
 # read json-file
-with open("/file.json") as json_file:
+with open('/file.json') as json_file:
     json_data = json.load(json_file)
     
 # open csv-file for writing
-csv_data = open('file.csv', 'w')
+csv_data = open('/file.csv', 'w')
 
 # create the csv writer object
 csvwriter = csv.writer(csv_data)
